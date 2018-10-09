@@ -1,0 +1,76 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.move-me {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #f6062b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pull-label {
+  color: white;
+  font-size: 20px;
+}
+
+.window-detail {
+  position: fixed;
+  left: 0px;
+  bottom: 10px;
+  padding: 30px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+}
+
+.element-percentage {
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.detail-label {
+  margin: 0px;
+  font-size: 10px;
+  margin-left: 12px;
+  word-spacing: -3px;
+  transform: rotate(-90deg);
+}
+
+.axis {
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  border: 1px dashed #f6062b;
+}
+
+.axis-exceeded {
+  border-color: white;
+}
+
+.label {
+  position: fixed;
+  left: 30px;
+  margin-top: -8px;
+  font-size: 15px;
+  word-spacing: -3px;
+  background: white;
+  color: #f6062b;
+  padding: 0px 5px;
+}
+
+.label-exceeded {
+  background: #f6062b;
+  color: white;
+}

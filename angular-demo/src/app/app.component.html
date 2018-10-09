@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" class="container">
+  <div id="pull-element" class="move-me" [ngStyle]="elementStyle">
+    <p class="pull-label">{{isExceeded ? 'release to refresh': 'pull down to refresh'}}</p>
+  </div>
+  <div class="axis" [ngClass]="{'axis-exceeded': isExceeded}" [style.top]="rulerPosition"></div>
+  <div class="label" [ngClass]="{'label-exceeded': isExceeded}" [style.top]="rulerPosition">at {{axisLabel}} of window
+    height</div>
+  <div class="window-detail">
+    <p class="element-percentage">{{ elementPercentage }}</p>
+    <p class="detail-label">drawer position</p>
+  </div>
+</div>
