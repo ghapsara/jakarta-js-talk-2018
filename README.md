@@ -22,7 +22,7 @@ here are examples that demonstrate RxJs can work with and without UI frameworks/
 
 ![](./demo/pull-down-to-refresh.gif)
 
-### Package Explorer with Vue
+### Ajax Cancelation with Vue
 
 [code](./vue-package-viz)
 
